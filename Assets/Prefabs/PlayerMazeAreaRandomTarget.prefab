@@ -120,7 +120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 33772094885382980}
   m_Layer: 0
-  m_Name: PlayerMazeArea
+  m_Name: PlayerMazeAreaRandomTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -377,7 +377,7 @@ GameObject:
   - component: {fileID: 33772095495968507}
   - component: {fileID: 33772095495968506}
   - component: {fileID: 33772095495968505}
-  - component: {fileID: 5282395301258499442}
+  - component: {fileID: 6385693921873119135}
   - component: {fileID: 33772095495968511}
   - component: {fileID: 33772095495968510}
   m_Layer: 0
@@ -477,7 +477,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &5282395301258499442
+--- !u!114 &6385693921873119135
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -486,7 +486,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 33772095495968484}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab05376384a214b44a48812746ad05e7, type: 3}
+  m_Script: {fileID: 11500000, guid: ba6446a57d57b4dc795bfc3191d09eb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   agentParameters:
@@ -518,7 +518,7 @@ MonoBehaviour:
     VectorActionSize: 02000000
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
-  m_Model: {fileID: 5022602860645237092, guid: a01704d331c2540dd85cc0605a1055ca, type: 3}
+  m_Model: {fileID: 5022602860645237092, guid: 8c59e0b2f738c48b483c647c93b70a88, type: 3}
   m_InferenceDevice: 1
   m_BehaviorType: 0
   m_BehaviorName: PlayerMaze

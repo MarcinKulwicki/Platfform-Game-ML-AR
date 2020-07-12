@@ -3,7 +3,7 @@ using UnityEngine;
 using Unity.MLAgents;
 using Unity.MLAgents.Sensors;
 
-public class PlayerAgent : BaseAgent
+public class PlayerAgentCheckingDistance : BaseAgent
 {
     [SerializeField]
     private float speed = 10.0f;
@@ -17,6 +17,8 @@ public class PlayerAgent : BaseAgent
     private Rigidbody playerRigidbody;  
     private Vector3 originalPosition;
     private Vector3 originalTargetPosition;
+    private float maxDistance;
+    private float stepDistance;
 
     public override void Initialize()
     {
@@ -27,10 +29,12 @@ public class PlayerAgent : BaseAgent
 
     public override void OnEpisodeBegin()
     {
-        target.transform.localPosition = originalTargetPosition;
+        target.transform.localPosition = new Vector3(Random.Range(-24,-20),originalTargetPosition.y, Random.Range(-4,4));
         transform.LookAt(target.transform);
         transform.localPosition = originalPosition;
         transform.localPosition = new Vector3(Random.Range(-2,4), originalPosition.y, Random.Range(-4,4));
+        maxDistance = Vector3.Distance(transform.localPosition, target.transform.localPosition);
+        stepDistance = maxDistance;
     }
 
     public override void CollectObservations(VectorSensor sensor)
@@ -53,7 +57,14 @@ public class PlayerAgent : BaseAgent
 
         playerRigidbody.AddForce(vectorForce * speed);
 
-        var distanceFromTheTarget = Vector3.Distance(transform.localPosition, target.transform.localPosition);
+        float distanceFromTheTarget = Vector3.Distance(transform.localPosition, target.transform.localPosition);
+
+        // if(stepDistance + maxDistance * 0.02f < distanceFromTheTarget){
+        //     EndEpisode();
+        //     //go back and punish Agent
+        //     StartCoroutine(SwapMaterial(failMaterial, 0.5f));
+        // }
+        // stepDistance = distanceFromTheTarget;
 
         if(distanceFromTheTarget <= distanceReequired)
         {
@@ -64,6 +75,9 @@ public class PlayerAgent : BaseAgent
 
         if(transform.localPosition.y < 0)
         {
+            if(distanceFromTheTarget < maxDistance){
+                SetReward((maxDistance / distanceFromTheTarget) * 0.001f);
+            }
             EndEpisode();
             //go back and punish Agent
             StartCoroutine(SwapMaterial(failMaterial, 0.5f));
