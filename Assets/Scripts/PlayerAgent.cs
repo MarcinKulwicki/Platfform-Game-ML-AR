@@ -28,6 +28,8 @@ public class PlayerAgent : BaseAgent
     public override void OnEpisodeBegin()
     {
         target.transform.localPosition = originalTargetPosition;
+        GetComponent<Rigidbody>().velocity = Vector3.zero;
+        GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
         transform.LookAt(target.transform);
         transform.localPosition = originalPosition;
         transform.localPosition = new Vector3(Random.Range(-2,4), originalPosition.y, Random.Range(-4,4));

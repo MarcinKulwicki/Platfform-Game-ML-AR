@@ -188,6 +188,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerMazeArea
       objectReference: {fileID: 0}
+    - target: {fileID: 33772094885382983, guid: 0679098a5f70c4e83a5deb6b0054234b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0679098a5f70c4e83a5deb6b0054234b, type: 3}
 --- !u!1001 &93134994
@@ -257,6 +262,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerMazeArea
       objectReference: {fileID: 0}
+    - target: {fileID: 33772094885382983, guid: 0679098a5f70c4e83a5deb6b0054234b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0679098a5f70c4e83a5deb6b0054234b, type: 3}
 --- !u!1001 &131614916
@@ -325,6 +335,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlayerMazeArea
+      objectReference: {fileID: 0}
+    - target: {fileID: 33772094885382983, guid: 0679098a5f70c4e83a5deb6b0054234b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0679098a5f70c4e83a5deb6b0054234b, type: 3}
@@ -508,6 +523,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerMazeArea
       objectReference: {fileID: 0}
+    - target: {fileID: 33772094885382983, guid: 0679098a5f70c4e83a5deb6b0054234b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0679098a5f70c4e83a5deb6b0054234b, type: 3}
 --- !u!1001 &212178951
@@ -576,6 +596,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlayerMazeArea
+      objectReference: {fileID: 0}
+    - target: {fileID: 33772094885382983, guid: 0679098a5f70c4e83a5deb6b0054234b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0679098a5f70c4e83a5deb6b0054234b, type: 3}
@@ -715,6 +740,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerMazeArea
       objectReference: {fileID: 0}
+    - target: {fileID: 33772094885382983, guid: 0679098a5f70c4e83a5deb6b0054234b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0679098a5f70c4e83a5deb6b0054234b, type: 3}
 --- !u!1001 &297874424
@@ -783,6 +813,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlayerMazeArea
+      objectReference: {fileID: 0}
+    - target: {fileID: 33772094885382983, guid: 0679098a5f70c4e83a5deb6b0054234b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0679098a5f70c4e83a5deb6b0054234b, type: 3}
@@ -1028,6 +1063,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerMazeArea
       objectReference: {fileID: 0}
+    - target: {fileID: 33772094885382983, guid: 0679098a5f70c4e83a5deb6b0054234b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0679098a5f70c4e83a5deb6b0054234b, type: 3}
 --- !u!1001 &1051959858
@@ -1096,6 +1136,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlayerMazeArea
+      objectReference: {fileID: 0}
+    - target: {fileID: 33772094885382983, guid: 0679098a5f70c4e83a5deb6b0054234b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0679098a5f70c4e83a5deb6b0054234b, type: 3}
@@ -1232,6 +1277,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerMazeArea
       objectReference: {fileID: 0}
+    - target: {fileID: 33772094885382983, guid: 0679098a5f70c4e83a5deb6b0054234b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0679098a5f70c4e83a5deb6b0054234b, type: 3}
 --- !u!1001 &2077471486
@@ -1300,6 +1350,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlayerMazeArea
+      objectReference: {fileID: 0}
+    - target: {fileID: 33772094885382983, guid: 0679098a5f70c4e83a5deb6b0054234b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0679098a5f70c4e83a5deb6b0054234b, type: 3}
